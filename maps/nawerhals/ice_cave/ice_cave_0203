@@ -1,0 +1,13 @@
+arch map
+name Glacial Hollow
+msg
+Created:  2009-03-01 Daniel Liptrot
+Modified: 2011-03-21 Daniel Liptrot
+endmsg
+width 24
+height 24
+difficulty 1
+darkness 2
+tile_path_3 ice_cave_0202
+tile_path_7 ice_cave_0102
+end
