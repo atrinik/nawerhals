@@ -2,11 +2,11 @@ arch map
 name Glacial Hollow
 msg
 Created: 2005-09-29 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
-difficulty 1
+difficulty 80
 darkness 2
 tile_path_1 ice_cave_0202
 tile_path_3 ice_cave_0200
@@ -14,6 +14,7 @@ tile_path_4 ice_cave_0101
 tile_path_7 ice_cave_0100
 tile_path_8 ice_cave_0102
 bg_music frozen.ogg
+region glacial_hollow
 end
 arch snow3
 end
@@ -108,6 +109,12 @@ end
 arch light1
 y 15
 end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
 arch rock_wall5
 y 17
 end
@@ -135,6 +142,12 @@ y 21
 end
 arch rock_wall4
 y 21
+end
+arch blocked
+y 22
+end
+arch blocked
+y 23
 end
 arch snow2
 x 1
@@ -290,6 +303,10 @@ dam 60
 maxhp 82
 attack_cold 70
 attack_acid 30
+can_cast_spell 1
+maxsp 6
+Pow 2
+magic 5
 Dex 13
 Wis 2
 protect_fire -20
@@ -835,6 +852,9 @@ arch rock_wall1
 x 3
 y 23
 end
+arch blocked
+x 4
+end
 arch snow3
 x 4
 y 1
@@ -953,6 +973,10 @@ arch rock_wall1
 x 4
 y 15
 end
+arch blocked
+x 4
+y 16
+end
 arch light1
 x 4
 y 16
@@ -1012,6 +1036,13 @@ end
 arch rock_wall1
 x 4
 y 23
+end
+arch blocked
+x 5
+end
+arch blocked
+x 5
+y 1
 end
 arch light1
 x 5
@@ -1099,9 +1130,17 @@ blocksview 1
 x 5
 y 13
 end
+arch blocked
+x 5
+y 14
+end
 arch light1
 x 5
 y 14
+end
+arch blocked
+x 5
+y 15
 end
 arch snow3
 x 5
@@ -1192,6 +1231,9 @@ end
 arch light1
 x 5
 y 23
+end
+arch blocked
+x 6
 end
 arch snow2
 x 6
@@ -1292,6 +1334,10 @@ arch light1
 x 6
 y 14
 end
+arch blocked
+x 6
+y 15
+end
 arch light1
 x 6
 y 15
@@ -1368,6 +1414,9 @@ end
 arch rock_wall1
 x 6
 y 23
+end
+arch blocked
+x 7
 end
 arch rock_wall4
 x 7
@@ -1474,6 +1523,10 @@ arch light1
 x 7
 y 14
 end
+arch blocked
+x 7
+y 15
+end
 arch light1
 x 7
 y 15
@@ -1651,6 +1704,10 @@ arch pillar_blue2
 blocksview 1
 x 8
 y 14
+end
+arch blocked
+x 8
+y 15
 end
 arch light1
 x 8
@@ -1851,9 +1908,17 @@ arch light1
 x 9
 y 14
 end
+arch blocked
+x 9
+y 15
+end
 arch light1
 x 9
 y 15
+end
+arch blocked
+x 9
+y 16
 end
 arch snow1
 x 9
@@ -2043,6 +2108,22 @@ arch rock_wall1
 x 10
 y 13
 end
+arch blocked
+x 10
+y 14
+end
+arch blocked
+x 10
+y 15
+end
+arch blocked
+x 10
+y 16
+end
+arch blocked
+x 10
+y 17
+end
 arch snow3
 x 10
 y 18
@@ -2108,6 +2189,9 @@ end
 arch rock_wall1
 x 10
 y 23
+end
+arch blocked
+x 11
 end
 arch snow2
 x 11
@@ -2196,9 +2280,41 @@ arch snow4
 x 11
 y 11
 end
+arch blocked
+x 11
+y 12
+end
+arch blocked
+x 11
+y 13
+end
+arch blocked
+x 11
+y 14
+end
+arch blocked
+x 11
+y 15
+end
+arch blocked
+x 11
+y 16
+end
+arch blocked
+x 11
+y 17
+end
+arch blocked
+x 11
+y 18
+end
 arch light1
 x 11
 y 18
+end
+arch blocked
+x 11
+y 19
 end
 arch light1
 x 11
@@ -2245,6 +2361,13 @@ end
 arch rock_wall1
 x 11
 y 23
+end
+arch blocked
+x 12
+end
+arch blocked
+x 12
+y 1
 end
 arch snow1
 x 12
@@ -2298,13 +2421,25 @@ arch snow2
 x 12
 y 8
 end
-arch light1
+arch blocked
 x 12
 y 9
 end
 arch light1
 x 12
+y 9
+end
+arch blocked
+x 12
 y 10
+end
+arch light1
+x 12
+y 10
+end
+arch blocked
+x 12
+y 11
 end
 arch light1
 x 12
@@ -2315,12 +2450,32 @@ blocksview 1
 x 12
 y 11
 end
-arch light1
+arch blocked
 x 12
 y 12
 end
 arch light1
 x 12
+y 12
+end
+arch blocked
+x 12
+y 13
+end
+arch blocked
+x 12
+y 14
+end
+arch blocked
+x 12
+y 15
+end
+arch blocked
+x 12
+y 16
+end
+arch light1
+x 12
 y 16
 end
 arch pillar_blue4
@@ -2328,12 +2483,20 @@ blocksview 1
 x 12
 y 16
 end
-arch light1
+arch blocked
 x 12
 y 17
 end
 arch light1
 x 12
+y 17
+end
+arch blocked
+x 12
+y 18
+end
+arch light1
+x 12
 y 18
 end
 arch pillar_blue4
@@ -2341,17 +2504,33 @@ blocksview 1
 x 12
 y 18
 end
-arch light1
+arch blocked
 x 12
 y 19
 end
 arch light1
 x 12
+y 19
+end
+arch blocked
+x 12
 y 20
 end
 arch light1
 x 12
+y 20
+end
+arch blocked
+x 12
 y 21
+end
+arch light1
+x 12
+y 21
+end
+arch blocked
+x 12
+y 22
 end
 arch light1
 x 12
@@ -2362,9 +2541,20 @@ blocksview 1
 x 12
 y 22
 end
+arch blocked
+x 12
+y 23
+end
 arch light1
 x 12
 y 23
+end
+arch blocked
+x 13
+end
+arch blocked
+x 13
+y 1
 end
 arch light1
 x 13
@@ -2469,6 +2659,10 @@ arch light1
 x 13
 y 12
 end
+arch blocked
+x 13
+y 13
+end
 arch light1
 x 13
 y 13
@@ -2478,9 +2672,17 @@ blocksview 1
 x 13
 y 13
 end
+arch blocked
+x 13
+y 14
+end
 arch light1
 x 13
 y 14
+end
+arch blocked
+x 13
+y 15
 end
 arch snow2
 x 13
@@ -2527,6 +2729,10 @@ arch light1
 x 13
 y 20
 end
+arch blocked
+x 13
+y 21
+end
 arch snow4
 x 13
 y 22
@@ -2542,6 +2748,13 @@ end
 arch light1
 x 13
 y 23
+end
+arch blocked
+x 14
+end
+arch blocked
+x 14
+y 1
 end
 arch light1
 x 14
@@ -2672,6 +2885,10 @@ arch light1
 x 14
 y 14
 end
+arch blocked
+x 14
+y 15
+end
 arch light1
 x 14
 y 15
@@ -2750,6 +2967,13 @@ end
 arch snow_fmask.104
 x 14
 y 23
+end
+arch blocked
+x 15
+end
+arch blocked
+x 15
+y 1
 end
 arch snow3
 x 15
@@ -2931,6 +3155,17 @@ end
 arch snow_fmask.114
 x 15
 y 23
+end
+arch blocked
+x 16
+end
+arch blocked
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
 end
 arch snow2
 x 16
@@ -3084,6 +3319,17 @@ arch icefloor_cave6
 x 16
 y 23
 end
+arch blocked
+x 17
+end
+arch blocked
+x 17
+y 1
+end
+arch blocked
+x 17
+y 2
+end
 arch snow1
 x 17
 y 3
@@ -3196,6 +3442,21 @@ arch icefloor_cave6
 x 17
 y 23
 end
+arch blocked
+x 18
+end
+arch blocked
+x 18
+y 1
+end
+arch blocked
+x 18
+y 2
+end
+arch blocked
+x 18
+y 3
+end
 arch snow3
 x 18
 y 4
@@ -3302,6 +3563,21 @@ end
 end
 end
 end
+end
+arch blocked
+x 19
+end
+arch blocked
+x 19
+y 1
+end
+arch blocked
+x 19
+y 2
+end
+arch blocked
+x 19
+y 3
 end
 arch snow4
 x 19
@@ -3458,6 +3734,21 @@ arch snow_fmask.107
 x 19
 y 23
 end
+arch blocked
+x 20
+end
+arch blocked
+x 20
+y 1
+end
+arch blocked
+x 20
+y 2
+end
+arch blocked
+x 20
+y 3
+end
 arch snow2
 x 20
 y 4
@@ -3602,6 +3893,25 @@ end
 arch snow1
 x 20
 y 23
+end
+arch blocked
+x 21
+end
+arch blocked
+x 21
+y 1
+end
+arch blocked
+x 21
+y 2
+end
+arch blocked
+x 21
+y 3
+end
+arch blocked
+x 21
+y 4
 end
 arch snow3
 x 21
@@ -3771,6 +4081,37 @@ arch snow2
 x 21
 y 22
 end
+arch blocked
+x 21
+y 23
+end
+arch blocked
+x 22
+end
+arch blocked
+x 22
+y 1
+end
+arch blocked
+x 22
+y 2
+end
+arch blocked
+x 22
+y 3
+end
+arch blocked
+x 22
+y 4
+end
+arch blocked
+x 22
+y 5
+end
+arch blocked
+x 22
+y 6
+end
 arch snow1
 x 22
 y 7
@@ -3857,6 +4198,10 @@ arch light1
 x 22
 y 17
 end
+arch blocked
+x 22
+y 18
+end
 arch light1
 x 22
 y 18
@@ -3894,17 +4239,68 @@ blocksview 1
 x 22
 y 21
 end
-arch light1
+arch blocked
 x 22
 y 22
 end
 arch light1
+x 22
+y 22
+end
+arch blocked
+x 22
+y 23
+end
+arch blocked
+x 23
+end
+arch blocked
+x 23
+y 1
+end
+arch blocked
+x 23
+y 2
+end
+arch blocked
+x 23
+y 3
+end
+arch blocked
+x 23
+y 4
+end
+arch blocked
+x 23
+y 5
+end
+arch blocked
+x 23
+y 6
+end
+arch blocked
+x 23
+y 7
+end
+arch blocked
 x 23
 y 8
 end
 arch light1
 x 23
+y 8
+end
+arch blocked
+x 23
 y 9
+end
+arch light1
+x 23
+y 9
+end
+arch blocked
+x 23
+y 10
 end
 arch snow3
 x 23
@@ -3935,13 +4331,29 @@ arch snow1
 x 23
 y 14
 end
-arch light1
+arch blocked
+x 23
+y 15
+end
+arch blocked
 x 23
 y 16
 end
 arch light1
 x 23
+y 16
+end
+arch blocked
+x 23
 y 17
+end
+arch light1
+x 23
+y 17
+end
+arch blocked
+x 23
+y 18
 end
 arch snow2
 x 23
@@ -3972,7 +4384,15 @@ arch light1
 x 23
 y 21
 end
+arch blocked
+x 23
+y 22
+end
 arch light1
 x 23
 y 22
+end
+arch blocked
+x 23
+y 23
 end

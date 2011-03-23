@@ -2,7 +2,7 @@ arch map
 name Neurok Valley
 msg
 Created: 2005-09-06 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
@@ -15,6 +15,7 @@ tile_path_5 valley_0102
 tile_path_7 valley_0a00
 tile_path_8 valley_0a02
 bg_music jungle1.ogg
+region neurok_valley
 end
 arch grassd_3
 end
@@ -725,6 +726,9 @@ arch floor_earth1e
 x 4
 y 23
 end
+arch blocked
+x 5
+end
 arch floor_earth1e
 x 5
 y 1
@@ -860,6 +864,9 @@ end
 arch floor_earth1e
 x 5
 y 23
+end
+arch blocked
+x 6
 end
 arch floor_earth1e
 x 6
@@ -1005,6 +1012,9 @@ arch floor_earth1a
 x 6
 y 23
 end
+arch blocked
+x 7
+end
 arch grassd_2
 x 7
 y 1
@@ -1144,6 +1154,9 @@ end
 arch floor_earth1e
 x 7
 y 23
+end
+arch blocked
+x 8
 end
 arch floor_earth1b
 x 8
@@ -1285,6 +1298,13 @@ arch floor_earth1c
 x 8
 y 23
 end
+arch blocked
+x 9
+end
+arch blocked
+x 9
+y 1
+end
 arch floor_earth1a
 x 9
 y 2
@@ -1413,6 +1433,21 @@ arch floor_earth1a
 x 9
 y 23
 end
+arch blocked
+x 10
+end
+arch blocked
+x 10
+y 1
+end
+arch blocked
+x 10
+y 2
+end
+arch blocked
+x 10
+y 3
+end
 arch grassd_4
 x 10
 y 4
@@ -1533,6 +1568,21 @@ arch floor_earth1a
 x 10
 y 23
 end
+arch blocked
+x 11
+end
+arch blocked
+x 11
+y 1
+end
+arch blocked
+x 11
+y 2
+end
+arch blocked
+x 11
+y 3
+end
 arch grassd_5
 x 11
 y 4
@@ -1644,6 +1694,21 @@ end
 arch floor_earth1a
 x 11
 y 23
+end
+arch blocked
+x 12
+end
+arch blocked
+x 12
+y 1
+end
+arch blocked
+x 12
+y 2
+end
+arch blocked
+x 12
+y 3
 end
 arch grassd_2
 x 12
@@ -1765,6 +1830,21 @@ arch floor_earth1a
 x 12
 y 23
 end
+arch blocked
+x 13
+end
+arch blocked
+x 13
+y 1
+end
+arch blocked
+x 13
+y 2
+end
+arch blocked
+x 13
+y 3
+end
 arch grassd_8
 x 13
 y 4
@@ -1880,6 +1960,25 @@ end
 arch floor_earth1a
 x 13
 y 23
+end
+arch blocked
+x 14
+end
+arch blocked
+x 14
+y 1
+end
+arch blocked
+x 14
+y 2
+end
+arch blocked
+x 14
+y 3
+end
+arch blocked
+x 14
+y 4
 end
 arch floor_earth1b
 x 14
@@ -2021,6 +2120,29 @@ arch floor_earth1a
 x 14
 y 23
 end
+arch blocked
+x 15
+end
+arch blocked
+x 15
+y 1
+end
+arch blocked
+x 15
+y 2
+end
+arch blocked
+x 15
+y 3
+end
+arch blocked
+x 15
+y 4
+end
+arch blocked
+x 15
+y 5
+end
 arch floor_earth1a
 x 15
 y 6
@@ -2145,6 +2267,29 @@ arch floor_earth1d
 x 15
 y 23
 end
+arch blocked
+x 16
+end
+arch blocked
+x 16
+y 1
+end
+arch blocked
+x 16
+y 2
+end
+arch blocked
+x 16
+y 3
+end
+arch blocked
+x 16
+y 4
+end
+arch blocked
+x 16
+y 5
+end
 arch floor_earth1c
 x 16
 y 6
@@ -2253,6 +2398,25 @@ arch floor_earth1b
 x 16
 y 23
 end
+arch blocked
+x 17
+end
+arch blocked
+x 17
+y 1
+end
+arch blocked
+x 17
+y 2
+end
+arch blocked
+x 17
+y 3
+end
+arch blocked
+x 17
+y 4
+end
 arch floor_earth1b
 x 17
 y 5
@@ -2340,6 +2504,25 @@ end
 arch floor_earth1d
 x 17
 y 23
+end
+arch blocked
+x 18
+end
+arch blocked
+x 18
+y 1
+end
+arch blocked
+x 18
+y 2
+end
+arch blocked
+x 18
+y 3
+end
+arch blocked
+x 18
+y 4
 end
 arch floor_earth1a
 x 18
@@ -2453,6 +2636,21 @@ arch stone1
 x 18
 y 23
 end
+arch blocked
+x 19
+end
+arch blocked
+x 19
+y 1
+end
+arch blocked
+x 19
+y 2
+end
+arch blocked
+x 19
+y 3
+end
 arch floor_earth1d
 x 19
 y 4
@@ -2564,6 +2762,21 @@ end
 arch floor_earth1a
 x 19
 y 23
+end
+arch blocked
+x 20
+end
+arch blocked
+x 20
+y 1
+end
+arch blocked
+x 20
+y 2
+end
+arch blocked
+x 20
+y 3
 end
 arch floor_earth1a
 x 20
@@ -2681,6 +2894,21 @@ arch floor_earth1d
 x 20
 y 23
 end
+arch blocked
+x 21
+end
+arch blocked
+x 21
+y 1
+end
+arch blocked
+x 21
+y 2
+end
+arch blocked
+x 21
+y 3
+end
 arch floor_earth1d
 x 21
 y 4
@@ -2781,6 +3009,21 @@ arch floor_earth1a
 x 21
 y 23
 end
+arch blocked
+x 22
+end
+arch blocked
+x 22
+y 1
+end
+arch blocked
+x 22
+y 2
+end
+arch blocked
+x 22
+y 3
+end
 arch floor_earth1d
 x 22
 y 4
@@ -2872,6 +3115,21 @@ end
 arch floor_earth1c
 x 22
 y 23
+end
+arch blocked
+x 23
+end
+arch blocked
+x 23
+y 1
+end
+arch blocked
+x 23
+y 2
+end
+arch blocked
+x 23
+y 3
 end
 arch floor_earth1b
 x 23

@@ -2,7 +2,7 @@ arch map
 name Southern Shores
 msg
 Created: 2005-04-12 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
@@ -13,6 +13,7 @@ tile_path_1 valley_0203
 tile_path_4 valley_0102
 tile_path_8 valley_0103
 bg_music jungle1.ogg
+region southern_shores
 end
 arch grassd_3
 end

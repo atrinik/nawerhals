@@ -2,7 +2,7 @@ arch map
 name Southern Shores
 msg
 Created: 2005-09-12 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
@@ -16,6 +16,117 @@ tile_path_5 valley_0203
 tile_path_7 valley_0001
 tile_path_8 valley_0003
 bg_music jungle1.ogg
+region southern_shores
+end
+arch blocked
+end
+arch blocked
+y 1
+end
+arch blocked
+y 2
+end
+arch blocked
+y 3
+end
+arch blocked
+y 4
+end
+arch blocked
+y 5
+end
+arch blocked
+y 6
+end
+arch blocked
+y 7
+end
+arch blocked
+y 8
+end
+arch blocked
+y 9
+end
+arch blocked
+y 10
+end
+arch blocked
+y 11
+end
+arch blocked
+y 12
+end
+arch blocked
+y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+y 18
+end
+arch blocked
+y 19
+end
+arch blocked
+y 20
+end
+arch blocked
+y 21
+end
+arch blocked
+y 22
+end
+arch blocked
+y 23
+end
+arch blocked
+x 1
+end
+arch blocked
+x 1
+y 1
+end
+arch blocked
+x 1
+y 2
+end
+arch blocked
+x 1
+y 3
+end
+arch blocked
+x 1
+y 4
+end
+arch blocked
+x 1
+y 5
+end
+arch blocked
+x 1
+y 6
+end
+arch blocked
+x 1
+y 7
+end
+arch blocked
+x 1
+y 8
+end
+arch blocked
+x 1
+y 9
 end
 arch floor_earth1e
 x 1
@@ -40,6 +151,81 @@ end
 arch rock_big3
 x 1
 y 12
+end
+arch blocked
+x 1
+y 13
+end
+arch blocked
+x 1
+y 14
+end
+arch blocked
+x 1
+y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 1
+y 18
+end
+arch blocked
+x 1
+y 19
+end
+arch blocked
+x 1
+y 20
+end
+arch blocked
+x 1
+y 21
+end
+arch blocked
+x 1
+y 22
+end
+arch blocked
+x 1
+y 23
+end
+arch blocked
+x 2
+end
+arch blocked
+x 2
+y 1
+end
+arch blocked
+x 2
+y 2
+end
+arch blocked
+x 2
+y 3
+end
+arch blocked
+x 2
+y 4
+end
+arch blocked
+x 2
+y 5
+end
+arch blocked
+x 2
+y 6
+end
+arch blocked
+x 2
+y 7
 end
 arch floor_earth1b
 x 2
@@ -84,6 +270,77 @@ end
 arch rock_big2
 x 2
 y 13
+end
+arch blocked
+x 2
+y 14
+end
+arch blocked
+x 2
+y 15
+end
+arch blocked
+x 2
+y 16
+end
+arch blocked
+x 2
+y 17
+end
+arch blocked
+x 2
+y 18
+end
+arch blocked
+x 2
+y 19
+end
+arch blocked
+x 2
+y 20
+end
+arch blocked
+x 2
+y 21
+end
+arch blocked
+x 2
+y 22
+end
+arch blocked
+x 2
+y 23
+end
+arch blocked
+x 3
+end
+arch blocked
+x 3
+y 1
+end
+arch blocked
+x 3
+y 2
+end
+arch blocked
+x 3
+y 3
+end
+arch blocked
+x 3
+y 4
+end
+arch blocked
+x 3
+y 5
+end
+arch blocked
+x 3
+y 6
+end
+arch blocked
+x 3
+y 7
 end
 arch floor_earth1e
 x 3
@@ -120,6 +377,77 @@ end
 arch rock_big1
 x 3
 y 13
+end
+arch blocked
+x 3
+y 14
+end
+arch blocked
+x 3
+y 15
+end
+arch blocked
+x 3
+y 16
+end
+arch blocked
+x 3
+y 17
+end
+arch blocked
+x 3
+y 18
+end
+arch blocked
+x 3
+y 19
+end
+arch blocked
+x 3
+y 20
+end
+arch blocked
+x 3
+y 21
+end
+arch blocked
+x 3
+y 22
+end
+arch blocked
+x 3
+y 23
+end
+arch blocked
+x 4
+end
+arch blocked
+x 4
+y 1
+end
+arch blocked
+x 4
+y 2
+end
+arch blocked
+x 4
+y 3
+end
+arch blocked
+x 4
+y 4
+end
+arch blocked
+x 4
+y 5
+end
+arch blocked
+x 4
+y 6
+end
+arch blocked
+x 4
+y 7
 end
 arch floor_earth1a
 x 4
@@ -177,6 +505,77 @@ arch rock_big1
 x 4
 y 14
 end
+arch blocked
+x 4
+y 15
+end
+arch blocked
+x 4
+y 16
+end
+arch blocked
+x 4
+y 17
+end
+arch blocked
+x 4
+y 18
+end
+arch blocked
+x 4
+y 19
+end
+arch blocked
+x 4
+y 20
+end
+arch blocked
+x 4
+y 21
+end
+arch blocked
+x 4
+y 22
+end
+arch blocked
+x 4
+y 23
+end
+arch blocked
+x 5
+end
+arch blocked
+x 5
+y 1
+end
+arch blocked
+x 5
+y 2
+end
+arch blocked
+x 5
+y 3
+end
+arch blocked
+x 5
+y 4
+end
+arch blocked
+x 5
+y 5
+end
+arch blocked
+x 5
+y 6
+end
+arch blocked
+x 5
+y 7
+end
+arch blocked
+x 5
+y 8
+end
 arch floor_earth1b
 x 5
 y 9
@@ -233,6 +632,10 @@ arch rock_big1
 x 5
 y 15
 end
+arch blocked
+x 5
+y 16
+end
 arch floor_earth1b
 x 5
 y 17
@@ -260,6 +663,57 @@ end
 arch rock_big1
 x 5
 y 19
+end
+arch blocked
+x 5
+y 20
+end
+arch blocked
+x 5
+y 21
+end
+arch blocked
+x 5
+y 22
+end
+arch blocked
+x 5
+y 23
+end
+arch blocked
+x 6
+end
+arch blocked
+x 6
+y 1
+end
+arch blocked
+x 6
+y 2
+end
+arch blocked
+x 6
+y 3
+end
+arch blocked
+x 6
+y 4
+end
+arch blocked
+x 6
+y 5
+end
+arch blocked
+x 6
+y 6
+end
+arch blocked
+x 6
+y 7
+end
+arch blocked
+x 6
+y 8
 end
 arch floor_earth1c
 x 6
@@ -368,6 +822,57 @@ end
 arch rock_big2
 x 6
 y 21
+end
+arch blocked
+x 6
+y 22
+end
+arch blocked
+x 6
+y 23
+end
+arch blocked
+x 7
+end
+arch blocked
+x 7
+y 1
+end
+arch blocked
+x 7
+y 2
+end
+arch blocked
+x 7
+y 3
+end
+arch blocked
+x 7
+y 4
+end
+arch blocked
+x 7
+y 5
+end
+arch blocked
+x 7
+y 6
+end
+arch blocked
+x 7
+y 7
+end
+arch blocked
+x 7
+y 8
+end
+arch blocked
+x 7
+y 9
+end
+arch blocked
+x 7
+y 10
 end
 arch floor_earth1e
 x 7
@@ -480,6 +985,25 @@ end
 arch rock_big3
 x 7
 y 22
+end
+arch blocked
+x 7
+y 23
+end
+arch blocked
+x 8
+end
+arch blocked
+x 8
+y 1
+end
+arch blocked
+x 8
+y 2
+end
+arch blocked
+x 8
+y 3
 end
 arch floor_earth1a
 x 8
@@ -637,6 +1161,21 @@ arch rock_big1
 x 8
 y 22
 end
+arch blocked
+x 8
+y 23
+end
+arch blocked
+x 9
+end
+arch blocked
+x 9
+y 1
+end
+arch blocked
+x 9
+y 2
+end
 arch floor_earth1e
 x 9
 y 3
@@ -784,6 +1323,17 @@ end
 arch rock_big1
 x 9
 y 23
+end
+arch blocked
+x 10
+end
+arch blocked
+x 10
+y 1
+end
+arch blocked
+x 10
+y 2
 end
 arch grassd_6
 x 10
@@ -936,6 +1486,13 @@ end
 arch floor_earth1c
 x 10
 y 23
+end
+arch blocked
+x 11
+end
+arch blocked
+x 11
+y 1
 end
 arch grassd_4
 x 11

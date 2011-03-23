@@ -2,11 +2,11 @@ arch map
 name Firos Woods
 msg
 Created: 2005-03-15 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
-difficulty 1
+difficulty 34
 darkness -1
 outdoor 1
 tile_path_1 woods_0203
@@ -18,6 +18,7 @@ tile_path_6 woods_0301
 tile_path_7 woods_0101
 tile_path_8 woods_0103
 bg_music jungle1.ogg
+region firos_woods
 end
 arch grassd_8
 end
@@ -1699,7 +1700,7 @@ x 12
 y 14
 arch quickwood
 type 83
-level 9
+level 34
 end
 end
 arch grassd_6

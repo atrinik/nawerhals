@@ -2,16 +2,22 @@ arch map
 name Glacial Hollow
 msg
 Created: 2005-07-10 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
-difficulty 1
+difficulty 76
 darkness 2
 tile_path_1 ice_cave_0001
 tile_path_2 ice_cave_0100
 tile_path_5 ice_cave_0101
 bg_music frozen.ogg
+region glacial_hollow
+end
+arch blocked
+end
+arch blocked
+y 1
 end
 arch light1
 y 1
@@ -20,8 +26,14 @@ arch pillar_blue4
 blocksview 1
 y 1
 end
+arch blocked
+y 2
+end
 arch light1
 y 2
+end
+arch blocked
+y 3
 end
 arch rock_wall5
 y 3
@@ -84,6 +96,39 @@ y 12
 end
 arch rock_wall4
 y 12
+end
+arch blocked
+y 13
+end
+arch blocked
+y 14
+end
+arch blocked
+y 15
+end
+arch blocked
+y 16
+end
+arch blocked
+y 17
+end
+arch blocked
+y 18
+end
+arch blocked
+y 19
+end
+arch blocked
+y 20
+end
+arch blocked
+y 21
+end
+arch blocked
+y 22
+end
+arch blocked
+y 23
 end
 arch snow1
 x 1
@@ -175,7 +220,7 @@ arch light1
 x 1
 y 10
 end
-arch snow_fmask.112
+arch snow2
 x 1
 y 11
 end
@@ -200,9 +245,45 @@ blocksview 1
 x 1
 y 14
 end
+arch blocked
+x 1
+y 15
+end
 arch light1
 x 1
 y 15
+end
+arch blocked
+x 1
+y 16
+end
+arch blocked
+x 1
+y 17
+end
+arch blocked
+x 1
+y 18
+end
+arch blocked
+x 1
+y 19
+end
+arch blocked
+x 1
+y 20
+end
+arch blocked
+x 1
+y 21
+end
+arch blocked
+x 1
+y 22
+end
+arch blocked
+x 1
+y 23
 end
 arch icefloor_cave5
 x 2
@@ -340,6 +421,38 @@ end
 arch light1
 x 2
 y 15
+end
+arch blocked
+x 2
+y 16
+end
+arch blocked
+x 2
+y 17
+end
+arch blocked
+x 2
+y 18
+end
+arch blocked
+x 2
+y 19
+end
+arch blocked
+x 2
+y 20
+end
+arch blocked
+x 2
+y 21
+end
+arch blocked
+x 2
+y 22
+end
+arch blocked
+x 2
+y 23
 end
 arch icefloor_cave4
 x 3
@@ -536,6 +649,14 @@ arch rock_wall1
 x 3
 y 21
 end
+arch blocked
+x 3
+y 22
+end
+arch blocked
+x 3
+y 23
+end
 arch icefloor_cave5
 x 4
 end
@@ -687,9 +808,17 @@ blocksview 1
 x 4
 y 21
 end
+arch blocked
+x 4
+y 22
+end
 arch light1
 x 4
 y 22
+end
+arch blocked
+x 4
+y 23
 end
 arch icefloor_cave6
 x 5
@@ -868,9 +997,17 @@ arch light1
 x 5
 y 21
 end
+arch blocked
+x 5
+y 22
+end
 arch light1
 x 5
 y 22
+end
+arch blocked
+x 5
+y 23
 end
 arch icefloor_cave4
 x 6
@@ -1014,6 +1151,14 @@ arch snow3
 x 6
 y 21
 end
+arch blocked
+x 6
+y 22
+end
+arch blocked
+x 6
+y 23
+end
 arch snow3
 x 7
 end
@@ -1027,6 +1172,10 @@ end
 arch snow1
 x 7
 y 1
+end
+arch blocked
+x 7
+y 2
 end
 arch snow3
 x 7
@@ -1145,6 +1294,29 @@ arch snow1
 x 7
 y 20
 end
+arch blocked
+x 7
+y 21
+end
+arch blocked
+x 7
+y 22
+end
+arch blocked
+x 7
+y 23
+end
+arch blocked
+x 8
+end
+arch blocked
+x 8
+y 1
+end
+arch blocked
+x 8
+y 2
+end
 arch light1
 x 8
 y 2
@@ -1154,9 +1326,17 @@ blocksview 1
 x 8
 y 2
 end
+arch blocked
+x 8
+y 3
+end
 arch light1
 x 8
 y 3
+end
+arch blocked
+x 8
+y 4
 end
 arch snow2
 x 8
@@ -1267,6 +1447,21 @@ arch light1
 x 8
 y 20
 end
+arch blocked
+x 8
+y 21
+end
+arch blocked
+x 8
+y 22
+end
+arch blocked
+x 8
+y 23
+end
+arch blocked
+x 9
+end
 arch rock_wall5
 x 9
 end
@@ -1289,6 +1484,10 @@ end
 arch light1
 x 9
 y 3
+end
+arch blocked
+x 9
+y 4
 end
 arch snow2
 x 9
@@ -1427,6 +1626,10 @@ arch snow1
 x 9
 y 20
 end
+arch blocked
+x 9
+y 21
+end
 arch light1
 x 9
 y 21
@@ -1436,9 +1639,17 @@ blocksview 1
 x 9
 y 21
 end
+arch blocked
+x 9
+y 22
+end
 arch light1
 x 9
 y 22
+end
+arch blocked
+x 9
+y 23
 end
 arch snow2
 x 10
@@ -1466,6 +1677,10 @@ end
 arch rock_wall4
 x 10
 y 3
+end
+arch blocked
+x 10
+y 4
 end
 arch snow2
 x 10
@@ -1652,6 +1867,10 @@ arch snow4
 x 11
 y 4
 end
+arch blocked
+x 11
+y 5
+end
 arch snow4
 x 11
 y 6
@@ -1684,6 +1903,14 @@ arch rock_wall4
 x 11
 y 10
 end
+arch blocked
+x 11
+y 11
+end
+arch blocked
+x 11
+y 12
+end
 arch light1
 x 11
 y 12
@@ -1693,9 +1920,17 @@ blocksview 1
 x 11
 y 12
 end
+arch blocked
+x 11
+y 13
+end
 arch light1
 x 11
 y 13
+end
+arch blocked
+x 11
+y 14
 end
 arch snow4
 x 11
@@ -1815,6 +2050,10 @@ end
 arch light1
 x 12
 y 4
+end
+arch blocked
+x 12
+y 5
 end
 arch light1
 x 12
@@ -1990,6 +2229,10 @@ end
 arch rock_wall1
 x 13
 y 4
+end
+arch blocked
+x 13
+y 5
 end
 arch light1
 x 13
@@ -2188,6 +2431,10 @@ arch rock_wall4
 x 14
 y 4
 end
+arch blocked
+x 14
+y 5
+end
 arch snow4
 x 14
 y 6
@@ -2337,6 +2584,10 @@ arch snow3
 x 14
 y 22
 end
+arch blocked
+x 14
+y 23
+end
 arch icefloor_cave1
 x 15
 end
@@ -2463,6 +2714,22 @@ end
 arch snow1
 x 15
 y 19
+end
+arch blocked
+x 15
+y 20
+end
+arch blocked
+x 15
+y 21
+end
+arch blocked
+x 15
+y 22
+end
+arch blocked
+x 15
+y 23
 end
 arch icefloor_cave6
 x 16
@@ -2628,6 +2895,18 @@ arch light1
 x 16
 y 20
 end
+arch blocked
+x 16
+y 21
+end
+arch blocked
+x 16
+y 22
+end
+arch blocked
+x 16
+y 23
+end
 arch icefloor_cave5
 x 17
 end
@@ -2767,6 +3046,14 @@ arch rock_wall5
 x 17
 y 20
 end
+arch blocked
+x 17
+y 21
+end
+arch blocked
+x 17
+y 22
+end
 arch light1
 x 17
 y 22
@@ -2775,6 +3062,10 @@ arch pillar_blue2
 blocksview 1
 x 17
 y 22
+end
+arch blocked
+x 17
+y 23
 end
 arch light1
 x 17
@@ -3336,6 +3627,18 @@ arch snow3
 x 21
 y 5
 end
+arch blocked
+x 21
+y 6
+end
+arch blocked
+x 21
+y 7
+end
+arch blocked
+x 21
+y 8
+end
 arch light1
 x 21
 y 8
@@ -3441,6 +3744,9 @@ arch light1
 x 21
 y 23
 end
+arch blocked
+x 22
+end
 arch snow1
 x 22
 y 1
@@ -3472,6 +3778,22 @@ end
 arch snow3
 x 22
 y 5
+end
+arch blocked
+x 22
+y 6
+end
+arch blocked
+x 22
+y 7
+end
+arch blocked
+x 22
+y 8
+end
+arch blocked
+x 22
+y 9
 end
 arch snow2
 x 22
@@ -3530,6 +3852,10 @@ arch light1
 x 22
 y 16
 end
+arch blocked
+x 22
+y 17
+end
 arch snow4
 x 22
 y 18
@@ -3558,6 +3884,13 @@ arch snow3
 x 22
 y 23
 end
+arch blocked
+x 23
+end
+arch blocked
+x 23
+y 1
+end
 arch snow4
 x 23
 y 2
@@ -3582,6 +3915,26 @@ end
 arch snow2
 x 23
 y 4
+end
+arch blocked
+x 23
+y 5
+end
+arch blocked
+x 23
+y 6
+end
+arch blocked
+x 23
+y 7
+end
+arch blocked
+x 23
+y 8
+end
+arch blocked
+x 23
+y 9
 end
 arch snow4
 x 23
@@ -3624,6 +3977,18 @@ arch snow4
 x 23
 y 14
 end
+arch blocked
+x 23
+y 15
+end
+arch blocked
+x 23
+y 16
+end
+arch blocked
+x 23
+y 17
+end
 arch snow1
 x 23
 y 18
@@ -3664,4 +4029,8 @@ end
 arch snow1
 x 23
 y 22
+end
+arch blocked
+x 23
+y 23
 end

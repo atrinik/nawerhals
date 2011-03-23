@@ -282,3 +282,88 @@ endmsg
 map_first /shattered_islands/everlink/everlink_0102
 map_bg #009ffb
 end
+
+#################
+### Nawerhals ###
+#################
+region nawerhals
+parent world
+longname Nawerhals
+msg
+A region that consists of a large island surrounded by several small isles. There is a myth that long ago, the elements of fire and ice came together here and cancelled each other out, creating the main island and the massive mountain range that divides it in two.
+endmsg
+map_first /nawerhals/woods_0000
+map_bg #009ffb
+end
+
+# Mount Winter
+region mount_winter
+parent nawerhals
+longname Mount Winter
+msg
+Although it is situated at the end of the Rubble Mountains, it is also by far the tallest mountain of them all. The peak is so high up that it is forever covered in snow and ice.
+endmsg
+end
+
+# Glacial Hollow
+region glacial_hollow
+parent mount_winter
+longname Glacial Hollow
+msg
+The inside of Mount Winter is even colder than it is on the outside. It is said that much of the ice has never melted and is original to the formation of the cave. If any water is exposed to the air, it will freeze within seconds.
+endmsg
+end
+
+# Rubble Mountains
+region rubble_mountains
+parent nawerhals
+longname Rubble Mountains
+msg
+
+endmsg
+end
+
+# Neurok Valley
+region neurok_valley
+parent nawerhals
+longname Neurok Valley
+msg
+
+endmsg
+end
+
+# Southern Shores
+region southern_shores
+parent nawerhals
+longname Southern Shores
+msg
+
+endmsg
+end
+
+# Firos Woods
+region firos_woods
+parent nawerhals
+longname Firos Woods
+msg
+
+endmsg
+end
+
+# Muddy Pit
+region muddy_pit
+parent firos_woods
+longname Muddy Pit
+msg
+
+endmsg
+end
+
+# The Abandoned City
+region abandoned_city
+parent nawerhals
+longname The Abandoned City
+msg
+A city once proud, being known for its mining. It was unfortunately attacked with its inhabitants being unable to defend it. Since then, it has crumbled into ruins.
+endmsg
+end

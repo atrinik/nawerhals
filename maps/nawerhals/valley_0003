@@ -2,7 +2,7 @@ arch map
 name Neurok Valley
 msg
 Created: 2005-04-10 Daniel Liptrot
-Modified: 2011-03-21 Daniel Liptrot
+Modified: 2011-03-23 Daniel Liptrot
 endmsg
 width 24
 height 24
@@ -18,6 +18,7 @@ tile_path_6 valley_0102
 tile_path_7 valley_0a02
 tile_path_8 valley_0a04
 bg_music jungle1.ogg
+region neurok_valley
 end
 arch grassd_8
 end
@@ -1655,6 +1656,10 @@ arch rock_big1
 x 10
 y 22
 end
+arch blocked
+x 10
+y 23
+end
 arch grassd_3
 x 11
 end
@@ -1784,6 +1789,22 @@ end
 arch rock_big2
 x 11
 y 19
+end
+arch blocked
+x 11
+y 20
+end
+arch blocked
+x 11
+y 21
+end
+arch blocked
+x 11
+y 22
+end
+arch blocked
+x 11
+y 23
 end
 arch grassd_2
 x 12
@@ -1930,6 +1951,22 @@ end
 arch rock_big3
 x 12
 y 19
+end
+arch blocked
+x 12
+y 20
+end
+arch blocked
+x 12
+y 21
+end
+arch blocked
+x 12
+y 22
+end
+arch blocked
+x 12
+y 23
 end
 arch floor_earth1d
 x 13
@@ -2084,6 +2121,22 @@ arch rock_big1
 x 13
 y 19
 end
+arch blocked
+x 13
+y 20
+end
+arch blocked
+x 13
+y 21
+end
+arch blocked
+x 13
+y 22
+end
+arch blocked
+x 13
+y 23
+end
 arch floor_earth1a
 x 14
 end
@@ -2194,6 +2247,26 @@ arch rock_big1
 x 14
 y 18
 end
+arch blocked
+x 14
+y 19
+end
+arch blocked
+x 14
+y 20
+end
+arch blocked
+x 14
+y 21
+end
+arch blocked
+x 14
+y 22
+end
+arch blocked
+x 14
+y 23
+end
 arch floor_earth1d
 x 15
 end
@@ -2301,6 +2374,26 @@ arch rock_big3
 x 15
 y 18
 end
+arch blocked
+x 15
+y 19
+end
+arch blocked
+x 15
+y 20
+end
+arch blocked
+x 15
+y 21
+end
+arch blocked
+x 15
+y 22
+end
+arch blocked
+x 15
+y 23
+end
 arch floor_earth1e
 x 16
 end
@@ -2392,6 +2485,38 @@ arch rock_big2
 x 16
 y 15
 end
+arch blocked
+x 16
+y 16
+end
+arch blocked
+x 16
+y 17
+end
+arch blocked
+x 16
+y 18
+end
+arch blocked
+x 16
+y 19
+end
+arch blocked
+x 16
+y 20
+end
+arch blocked
+x 16
+y 21
+end
+arch blocked
+x 16
+y 22
+end
+arch blocked
+x 16
+y 23
+end
 arch floor_earth1c
 x 17
 end
@@ -2463,6 +2588,50 @@ arch rock_big3
 x 17
 y 12
 end
+arch blocked
+x 17
+y 13
+end
+arch blocked
+x 17
+y 14
+end
+arch blocked
+x 17
+y 15
+end
+arch blocked
+x 17
+y 16
+end
+arch blocked
+x 17
+y 17
+end
+arch blocked
+x 17
+y 18
+end
+arch blocked
+x 17
+y 19
+end
+arch blocked
+x 17
+y 20
+end
+arch blocked
+x 17
+y 21
+end
+arch blocked
+x 17
+y 22
+end
+arch blocked
+x 17
+y 23
+end
 arch floor_earth1d
 x 18
 end
@@ -2530,6 +2699,54 @@ arch rock_big3
 x 18
 y 11
 end
+arch blocked
+x 18
+y 12
+end
+arch blocked
+x 18
+y 13
+end
+arch blocked
+x 18
+y 14
+end
+arch blocked
+x 18
+y 15
+end
+arch blocked
+x 18
+y 16
+end
+arch blocked
+x 18
+y 17
+end
+arch blocked
+x 18
+y 18
+end
+arch blocked
+x 18
+y 19
+end
+arch blocked
+x 18
+y 20
+end
+arch blocked
+x 18
+y 21
+end
+arch blocked
+x 18
+y 22
+end
+arch blocked
+x 18
+y 23
+end
 arch floor_earth1e
 x 19
 end
@@ -2588,6 +2805,54 @@ end
 arch rock_big2
 x 19
 y 11
+end
+arch blocked
+x 19
+y 12
+end
+arch blocked
+x 19
+y 13
+end
+arch blocked
+x 19
+y 14
+end
+arch blocked
+x 19
+y 15
+end
+arch blocked
+x 19
+y 16
+end
+arch blocked
+x 19
+y 17
+end
+arch blocked
+x 19
+y 18
+end
+arch blocked
+x 19
+y 19
+end
+arch blocked
+x 19
+y 20
+end
+arch blocked
+x 19
+y 21
+end
+arch blocked
+x 19
+y 22
+end
+arch blocked
+x 19
+y 23
 end
 arch floor_earth1b
 x 20
@@ -2664,6 +2929,50 @@ arch rock_big1
 x 20
 y 12
 end
+arch blocked
+x 20
+y 13
+end
+arch blocked
+x 20
+y 14
+end
+arch blocked
+x 20
+y 15
+end
+arch blocked
+x 20
+y 16
+end
+arch blocked
+x 20
+y 17
+end
+arch blocked
+x 20
+y 18
+end
+arch blocked
+x 20
+y 19
+end
+arch blocked
+x 20
+y 20
+end
+arch blocked
+x 20
+y 21
+end
+arch blocked
+x 20
+y 22
+end
+arch blocked
+x 20
+y 23
+end
 arch floor_earth1a
 x 21
 end
@@ -2726,6 +3035,50 @@ end
 arch rock_big3
 x 21
 y 12
+end
+arch blocked
+x 21
+y 13
+end
+arch blocked
+x 21
+y 14
+end
+arch blocked
+x 21
+y 15
+end
+arch blocked
+x 21
+y 16
+end
+arch blocked
+x 21
+y 17
+end
+arch blocked
+x 21
+y 18
+end
+arch blocked
+x 21
+y 19
+end
+arch blocked
+x 21
+y 20
+end
+arch blocked
+x 21
+y 21
+end
+arch blocked
+x 21
+y 22
+end
+arch blocked
+x 21
+y 23
 end
 arch floor_earth1c
 x 22
@@ -2790,6 +3143,50 @@ arch rock_big2
 x 22
 y 12
 end
+arch blocked
+x 22
+y 13
+end
+arch blocked
+x 22
+y 14
+end
+arch blocked
+x 22
+y 15
+end
+arch blocked
+x 22
+y 16
+end
+arch blocked
+x 22
+y 17
+end
+arch blocked
+x 22
+y 18
+end
+arch blocked
+x 22
+y 19
+end
+arch blocked
+x 22
+y 20
+end
+arch blocked
+x 22
+y 21
+end
+arch blocked
+x 22
+y 22
+end
+arch blocked
+x 22
+y 23
+end
 arch floor_earth1b
 x 23
 end
@@ -2848,4 +3245,48 @@ end
 arch rock_big3
 x 23
 y 12
+end
+arch blocked
+x 23
+y 13
+end
+arch blocked
+x 23
+y 14
+end
+arch blocked
+x 23
+y 15
+end
+arch blocked
+x 23
+y 16
+end
+arch blocked
+x 23
+y 17
+end
+arch blocked
+x 23
+y 18
+end
+arch blocked
+x 23
+y 19
+end
+arch blocked
+x 23
+y 20
+end
+arch blocked
+x 23
+y 21
+end
+arch blocked
+x 23
+y 22
+end
+arch blocked
+x 23
+y 23
 end
