@@ -15,62 +15,6 @@ bg_music frozen.ogg
 region glacial_hollow
 end
 arch blocked
-end
-arch blocked
-y 1
-end
-arch blocked
-y 2
-end
-arch blocked
-y 3
-end
-arch blocked
-y 4
-end
-arch blocked
-y 5
-end
-arch blocked
-y 6
-end
-arch blocked
-y 7
-end
-arch blocked
-y 8
-end
-arch blocked
-y 9
-end
-arch blocked
-y 10
-end
-arch blocked
-y 11
-end
-arch blocked
-y 12
-end
-arch blocked
-y 13
-end
-arch blocked
-y 14
-end
-arch blocked
-y 15
-end
-arch blocked
-y 16
-end
-arch blocked
-y 17
-end
-arch blocked
-y 18
-end
-arch blocked
 y 19
 end
 arch light1
@@ -104,37 +48,6 @@ y 23
 end
 arch light1
 y 23
-end
-arch blocked
-x 1
-end
-arch blocked
-x 1
-y 1
-end
-arch blocked
-x 1
-y 2
-end
-arch blocked
-x 1
-y 3
-end
-arch blocked
-x 1
-y 4
-end
-arch blocked
-x 1
-y 5
-end
-arch blocked
-x 1
-y 6
-end
-arch blocked
-x 1
-y 7
 end
 arch blocked
 x 1
@@ -172,22 +85,6 @@ end
 arch blocked
 x 1
 y 12
-end
-arch blocked
-x 1
-y 13
-end
-arch blocked
-x 1
-y 14
-end
-arch blocked
-x 1
-y 15
-end
-arch blocked
-x 1
-y 16
 end
 arch blocked
 x 1
@@ -237,37 +134,6 @@ arch light1
 x 1
 y 23
 end
-arch blocked
-x 2
-end
-arch blocked
-x 2
-y 1
-end
-arch blocked
-x 2
-y 2
-end
-arch blocked
-x 2
-y 3
-end
-arch blocked
-x 2
-y 4
-end
-arch blocked
-x 2
-y 5
-end
-arch blocked
-x 2
-y 6
-end
-arch blocked
-x 2
-y 7
-end
 arch snow3
 x 2
 y 8
@@ -308,10 +174,6 @@ end
 arch light1
 x 2
 y 13
-end
-arch blocked
-x 2
-y 14
 end
 arch blocked
 x 2
@@ -401,18 +263,6 @@ y 1
 end
 arch blocked
 x 3
-y 2
-end
-arch blocked
-x 3
-y 3
-end
-arch blocked
-x 3
-y 4
-end
-arch blocked
-x 3
 y 5
 end
 arch light1
@@ -431,10 +281,6 @@ end
 arch light1
 x 3
 y 6
-end
-arch blocked
-x 3
-y 7
 end
 arch snow1
 x 3
@@ -599,10 +445,6 @@ end
 arch light1
 x 4
 y 3
-end
-arch blocked
-x 4
-y 4
 end
 arch snow4
 x 4
@@ -1769,9 +1611,6 @@ arch stone5
 x 10
 y 23
 end
-arch blocked
-x 11
-end
 arch snow3
 x 11
 y 1
@@ -1969,9 +1808,6 @@ y 23
 end
 arch blocked
 x 12
-end
-arch blocked
-x 12
 y 1
 end
 arch snow3
@@ -2129,17 +1965,6 @@ end
 arch snow_fmask.105
 x 12
 y 23
-end
-arch blocked
-x 13
-end
-arch blocked
-x 13
-y 1
-end
-arch blocked
-x 13
-y 2
 end
 arch snow2
 x 13
@@ -2334,13 +2159,6 @@ y 23
 end
 arch blocked
 x 14
-end
-arch blocked
-x 14
-y 1
-end
-arch blocked
-x 14
 y 2
 end
 arch rock_wall5
@@ -2509,13 +2327,6 @@ arch icefloor_cave2
 x 14
 y 23
 end
-arch blocked
-x 15
-end
-arch blocked
-x 15
-y 1
-end
 arch snow4
 x 15
 y 2
@@ -2676,9 +2487,6 @@ y 23
 end
 arch blocked
 x 16
-end
-arch blocked
-x 16
 y 1
 end
 arch rock_wall4
@@ -2836,9 +2644,6 @@ arch icefloor_cave5
 x 16
 y 23
 end
-arch blocked
-x 17
-end
 arch snow1
 x 17
 y 1
@@ -2958,9 +2763,6 @@ end
 arch icefloor_cave6
 x 17
 y 23
-end
-arch blocked
-x 18
 end
 arch snow3
 x 18
@@ -3110,9 +2912,6 @@ end
 arch icefloor_cave4
 x 18
 y 23
-end
-arch blocked
-x 19
 end
 arch snow1
 x 19
@@ -3274,9 +3073,6 @@ y 23
 end
 arch blocked
 x 20
-end
-arch blocked
-x 20
 y 1
 end
 arch snow4
@@ -3419,13 +3215,6 @@ arch snow_fmask.118
 x 20
 y 23
 end
-arch blocked
-x 21
-end
-arch blocked
-x 21
-y 1
-end
 arch snow3
 x 21
 y 2
@@ -3502,10 +3291,6 @@ arch blocked
 x 21
 y 13
 end
-arch blocked
-x 21
-y 14
-end
 arch snow2
 x 21
 y 15
@@ -3573,13 +3358,6 @@ end
 arch snow_fmask.108
 x 21
 y 23
-end
-arch blocked
-x 22
-end
-arch blocked
-x 22
-y 1
 end
 arch snow4
 x 22
@@ -3651,14 +3429,6 @@ y 12
 end
 arch blocked
 x 22
-y 13
-end
-arch blocked
-x 22
-y 14
-end
-arch blocked
-x 22
 y 15
 end
 arch snow4
@@ -3721,13 +3491,6 @@ end
 arch light1
 x 22
 y 23
-end
-arch blocked
-x 23
-end
-arch blocked
-x 23
-y 1
 end
 arch snow4
 x 23
@@ -3802,26 +3565,6 @@ end
 arch blocked
 x 23
 y 12
-end
-arch blocked
-x 23
-y 13
-end
-arch blocked
-x 23
-y 14
-end
-arch blocked
-x 23
-y 15
-end
-arch blocked
-x 23
-y 16
-end
-arch blocked
-x 23
-y 17
 end
 arch blocked
 x 23

@@ -43,15 +43,6 @@ end
 arch rock_big3
 y 5
 end
-arch blocked
-y 6
-end
-arch blocked
-y 7
-end
-arch blocked
-y 8
-end
 arch floor_earth1e
 y 9
 end
@@ -135,22 +126,6 @@ end
 arch rock_big2
 x 1
 y 4
-end
-arch blocked
-x 1
-y 5
-end
-arch blocked
-x 1
-y 6
-end
-arch blocked
-x 1
-y 7
-end
-arch blocked
-x 1
-y 8
 end
 arch floor_earth1c
 x 1
@@ -241,18 +216,6 @@ end
 arch rock_big3
 x 2
 y 3
-end
-arch blocked
-x 2
-y 4
-end
-arch blocked
-x 2
-y 5
-end
-arch blocked
-x 2
-y 6
 end
 arch floor_earth1e
 x 2
@@ -373,18 +336,6 @@ arch rock_big1
 x 3
 y 3
 end
-arch blocked
-x 3
-y 4
-end
-arch blocked
-x 3
-y 5
-end
-arch blocked
-x 3
-y 6
-end
 arch floor_earth1a
 x 3
 y 7
@@ -495,14 +446,6 @@ end
 arch rock_big2
 x 4
 y 3
-end
-arch blocked
-x 4
-y 4
-end
-arch blocked
-x 4
-y 5
 end
 arch floor_earth1e
 x 4
@@ -619,18 +562,6 @@ arch rock_big3
 x 5
 y 2
 end
-arch blocked
-x 5
-y 3
-end
-arch blocked
-x 5
-y 4
-end
-arch blocked
-x 5
-y 5
-end
 arch floor_earth1a
 x 5
 y 6
@@ -736,14 +667,6 @@ end
 arch rock_big3
 x 6
 y 1
-end
-arch blocked
-x 6
-y 2
-end
-arch blocked
-x 6
-y 3
 end
 arch floor_earth1e
 x 6
@@ -855,14 +778,6 @@ end
 arch rock_big2
 x 7
 y 1
-end
-arch blocked
-x 7
-y 2
-end
-arch blocked
-x 7
-y 3
 end
 arch floor_earth1e
 x 7
@@ -2545,10 +2460,6 @@ arch rock_big2
 x 21
 y 12
 end
-arch blocked
-x 21
-y 13
-end
 arch floor_earth1a
 x 21
 y 14
@@ -2604,13 +2515,6 @@ end
 arch floor_earth1e
 x 21
 y 23
-end
-arch blocked
-x 22
-end
-arch blocked
-x 22
-y 1
 end
 arch floor_earth1b
 x 22
@@ -2684,14 +2588,6 @@ arch rock_big1
 x 22
 y 11
 end
-arch blocked
-x 22
-y 12
-end
-arch blocked
-x 22
-y 13
-end
 arch floor_earth1e
 x 22
 y 14
@@ -2740,21 +2636,6 @@ arch floor_earth1e
 x 22
 y 23
 end
-arch blocked
-x 23
-end
-arch blocked
-x 23
-y 1
-end
-arch blocked
-x 23
-y 2
-end
-arch blocked
-x 23
-y 3
-end
 arch floor_earth1a
 x 23
 y 4
@@ -2802,18 +2683,6 @@ end
 arch rock_big3
 x 23
 y 9
-end
-arch blocked
-x 23
-y 10
-end
-arch blocked
-x 23
-y 11
-end
-arch blocked
-x 23
-y 12
 end
 arch floor_earth1e
 x 23

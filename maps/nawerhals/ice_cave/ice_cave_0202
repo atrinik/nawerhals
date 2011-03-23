@@ -149,15 +149,6 @@ end
 arch blocked
 y 20
 end
-arch blocked
-y 21
-end
-arch blocked
-y 22
-end
-arch blocked
-y 23
-end
 arch snow1
 x 1
 end
@@ -300,18 +291,6 @@ end
 arch snow3
 x 1
 y 20
-end
-arch blocked
-x 1
-y 21
-end
-arch blocked
-x 1
-y 22
-end
-arch blocked
-x 1
-y 23
 end
 arch snow3
 x 2
@@ -527,14 +506,6 @@ arch light1
 x 2
 y 21
 end
-arch blocked
-x 2
-y 22
-end
-arch blocked
-x 2
-y 23
-end
 arch snow1
 x 3
 end
@@ -677,14 +648,6 @@ end
 arch light1
 x 3
 y 21
-end
-arch blocked
-x 3
-y 22
-end
-arch blocked
-x 3
-y 23
 end
 arch snow2
 x 4
@@ -832,22 +795,6 @@ end
 arch snow1
 x 4
 y 19
-end
-arch blocked
-x 4
-y 20
-end
-arch blocked
-x 4
-y 21
-end
-arch blocked
-x 4
-y 22
-end
-arch blocked
-x 4
-y 23
 end
 arch snow2
 x 5
@@ -1020,21 +967,6 @@ end
 arch light1
 x 5
 y 20
-end
-arch blocked
-x 5
-y 21
-end
-arch blocked
-x 5
-y 22
-end
-arch blocked
-x 5
-y 23
-end
-arch blocked
-x 6
 end
 arch snow2
 x 6
@@ -1215,13 +1147,6 @@ end
 arch blocked
 x 6
 y 22
-end
-arch blocked
-x 6
-y 23
-end
-arch blocked
-x 7
 end
 arch snow1
 x 7
@@ -2160,10 +2085,6 @@ arch light1
 x 11
 y 22
 end
-arch blocked
-x 11
-y 23
-end
 arch snow4
 x 12
 end
@@ -2336,10 +2257,6 @@ arch snow1
 x 12
 y 22
 end
-arch blocked
-x 12
-y 23
-end
 arch snow4
 x 13
 end
@@ -2513,10 +2430,6 @@ end
 arch snow4
 x 13
 y 22
-end
-arch blocked
-x 13
-y 23
 end
 arch snow3
 x 14
@@ -2735,10 +2648,6 @@ end
 arch light1
 x 14
 y 22
-end
-arch blocked
-x 14
-y 23
 end
 arch blocked
 x 15
@@ -3740,9 +3649,6 @@ arch blocked
 x 19
 y 23
 end
-arch blocked
-x 20
-end
 arch snow2
 x 20
 y 1
@@ -3931,14 +3837,6 @@ x 20
 y 21
 end
 arch blocked
-x 20
-y 22
-end
-arch blocked
-x 20
-y 23
-end
-arch blocked
 x 21
 end
 arch light1
@@ -4088,10 +3986,6 @@ y 16
 end
 arch blocked
 x 21
-y 17
-end
-arch blocked
-x 21
 y 18
 end
 arch light1
@@ -4121,14 +4015,6 @@ end
 arch light1
 x 21
 y 21
-end
-arch blocked
-x 21
-y 22
-end
-arch blocked
-x 21
-y 23
 end
 arch blocked
 x 22
@@ -4246,41 +4132,6 @@ x 22
 y 16
 end
 arch blocked
-x 22
-y 17
-end
-arch blocked
-x 22
-y 18
-end
-arch blocked
-x 22
-y 19
-end
-arch blocked
-x 22
-y 20
-end
-arch blocked
-x 22
-y 21
-end
-arch blocked
-x 22
-y 22
-end
-arch blocked
-x 22
-y 23
-end
-arch blocked
-x 23
-end
-arch blocked
-x 23
-y 1
-end
-arch blocked
 x 23
 y 2
 end
@@ -4348,10 +4199,6 @@ y 11
 end
 arch blocked
 x 23
-y 12
-end
-arch blocked
-x 23
 y 13
 end
 arch light1
@@ -4365,40 +4212,4 @@ end
 arch light1
 x 23
 y 14
-end
-arch blocked
-x 23
-y 15
-end
-arch blocked
-x 23
-y 16
-end
-arch blocked
-x 23
-y 17
-end
-arch blocked
-x 23
-y 18
-end
-arch blocked
-x 23
-y 19
-end
-arch blocked
-x 23
-y 20
-end
-arch blocked
-x 23
-y 21
-end
-arch blocked
-x 23
-y 22
-end
-arch blocked
-x 23
-y 23
 end

@@ -64,39 +64,6 @@ end
 arch rock_big1
 y 12
 end
-arch blocked
-y 13
-end
-arch blocked
-y 14
-end
-arch blocked
-y 15
-end
-arch blocked
-y 16
-end
-arch blocked
-y 17
-end
-arch blocked
-y 18
-end
-arch blocked
-y 19
-end
-arch blocked
-y 20
-end
-arch blocked
-y 21
-end
-arch blocked
-y 22
-end
-arch blocked
-y 23
-end
 arch floor_earth1d
 x 1
 end
@@ -155,50 +122,6 @@ end
 arch rock_big3
 x 1
 y 12
-end
-arch blocked
-x 1
-y 13
-end
-arch blocked
-x 1
-y 14
-end
-arch blocked
-x 1
-y 15
-end
-arch blocked
-x 1
-y 16
-end
-arch blocked
-x 1
-y 17
-end
-arch blocked
-x 1
-y 18
-end
-arch blocked
-x 1
-y 19
-end
-arch blocked
-x 1
-y 20
-end
-arch blocked
-x 1
-y 21
-end
-arch blocked
-x 1
-y 22
-end
-arch blocked
-x 1
-y 23
 end
 arch floor_earth1b
 x 2
@@ -265,50 +188,6 @@ end
 arch rock_big2
 x 2
 y 12
-end
-arch blocked
-x 2
-y 13
-end
-arch blocked
-x 2
-y 14
-end
-arch blocked
-x 2
-y 15
-end
-arch blocked
-x 2
-y 16
-end
-arch blocked
-x 2
-y 17
-end
-arch blocked
-x 2
-y 18
-end
-arch blocked
-x 2
-y 19
-end
-arch blocked
-x 2
-y 20
-end
-arch blocked
-x 2
-y 21
-end
-arch blocked
-x 2
-y 22
-end
-arch blocked
-x 2
-y 23
 end
 arch floor_earth1e
 x 3
@@ -372,54 +251,6 @@ arch rock_big1
 x 3
 y 11
 end
-arch blocked
-x 3
-y 12
-end
-arch blocked
-x 3
-y 13
-end
-arch blocked
-x 3
-y 14
-end
-arch blocked
-x 3
-y 15
-end
-arch blocked
-x 3
-y 16
-end
-arch blocked
-x 3
-y 17
-end
-arch blocked
-x 3
-y 18
-end
-arch blocked
-x 3
-y 19
-end
-arch blocked
-x 3
-y 20
-end
-arch blocked
-x 3
-y 21
-end
-arch blocked
-x 3
-y 22
-end
-arch blocked
-x 3
-y 23
-end
 arch floor_earth1c
 x 4
 end
@@ -474,54 +305,6 @@ end
 arch rock_big3
 x 4
 y 11
-end
-arch blocked
-x 4
-y 12
-end
-arch blocked
-x 4
-y 13
-end
-arch blocked
-x 4
-y 14
-end
-arch blocked
-x 4
-y 15
-end
-arch blocked
-x 4
-y 16
-end
-arch blocked
-x 4
-y 17
-end
-arch blocked
-x 4
-y 18
-end
-arch blocked
-x 4
-y 19
-end
-arch blocked
-x 4
-y 20
-end
-arch blocked
-x 4
-y 21
-end
-arch blocked
-x 4
-y 22
-end
-arch blocked
-x 4
-y 23
 end
 arch floor_earth1b
 x 5
@@ -602,42 +385,6 @@ arch rock_big3
 x 5
 y 14
 end
-arch blocked
-x 5
-y 15
-end
-arch blocked
-x 5
-y 16
-end
-arch blocked
-x 5
-y 17
-end
-arch blocked
-x 5
-y 18
-end
-arch blocked
-x 5
-y 19
-end
-arch blocked
-x 5
-y 20
-end
-arch blocked
-x 5
-y 21
-end
-arch blocked
-x 5
-y 22
-end
-arch blocked
-x 5
-y 23
-end
 arch floor_earth1c
 x 6
 end
@@ -713,38 +460,6 @@ arch rock_big3
 x 6
 y 15
 end
-arch blocked
-x 6
-y 16
-end
-arch blocked
-x 6
-y 17
-end
-arch blocked
-x 6
-y 18
-end
-arch blocked
-x 6
-y 19
-end
-arch blocked
-x 6
-y 20
-end
-arch blocked
-x 6
-y 21
-end
-arch blocked
-x 6
-y 22
-end
-arch blocked
-x 6
-y 23
-end
 arch floor_earth1d
 x 7
 end
@@ -822,38 +537,6 @@ end
 arch rock_big1
 x 7
 y 15
-end
-arch blocked
-x 7
-y 16
-end
-arch blocked
-x 7
-y 17
-end
-arch blocked
-x 7
-y 18
-end
-arch blocked
-x 7
-y 19
-end
-arch blocked
-x 7
-y 20
-end
-arch blocked
-x 7
-y 21
-end
-arch blocked
-x 7
-y 22
-end
-arch blocked
-x 7
-y 23
 end
 arch floor_earth1d
 x 8
@@ -954,34 +637,6 @@ arch rock_big1
 x 8
 y 16
 end
-arch blocked
-x 8
-y 17
-end
-arch blocked
-x 8
-y 18
-end
-arch blocked
-x 8
-y 19
-end
-arch blocked
-x 8
-y 20
-end
-arch blocked
-x 8
-y 21
-end
-arch blocked
-x 8
-y 22
-end
-arch blocked
-x 8
-y 23
-end
 arch floor_earth1d
 x 9
 end
@@ -1056,34 +711,6 @@ end
 arch rock_big2
 x 9
 y 16
-end
-arch blocked
-x 9
-y 17
-end
-arch blocked
-x 9
-y 18
-end
-arch blocked
-x 9
-y 19
-end
-arch blocked
-x 9
-y 20
-end
-arch blocked
-x 9
-y 21
-end
-arch blocked
-x 9
-y 22
-end
-arch blocked
-x 9
-y 23
 end
 arch floor_earth1a
 x 10
@@ -1180,34 +807,6 @@ arch rock_big1
 x 10
 y 16
 end
-arch blocked
-x 10
-y 17
-end
-arch blocked
-x 10
-y 18
-end
-arch blocked
-x 10
-y 19
-end
-arch blocked
-x 10
-y 20
-end
-arch blocked
-x 10
-y 21
-end
-arch blocked
-x 10
-y 22
-end
-arch blocked
-x 10
-y 23
-end
 arch floor_earth1b
 x 11
 end
@@ -1294,34 +893,6 @@ end
 arch rock_big3
 x 11
 y 16
-end
-arch blocked
-x 11
-y 17
-end
-arch blocked
-x 11
-y 18
-end
-arch blocked
-x 11
-y 19
-end
-arch blocked
-x 11
-y 20
-end
-arch blocked
-x 11
-y 21
-end
-arch blocked
-x 11
-y 22
-end
-arch blocked
-x 11
-y 23
 end
 arch floor_earth1a
 x 12
@@ -1400,34 +971,6 @@ end
 arch rock_big2
 x 12
 y 16
-end
-arch blocked
-x 12
-y 17
-end
-arch blocked
-x 12
-y 18
-end
-arch blocked
-x 12
-y 19
-end
-arch blocked
-x 12
-y 20
-end
-arch blocked
-x 12
-y 21
-end
-arch blocked
-x 12
-y 22
-end
-arch blocked
-x 12
-y 23
 end
 arch floor_earth1e
 x 13
@@ -1519,34 +1062,6 @@ arch rock_big3
 x 13
 y 16
 end
-arch blocked
-x 13
-y 17
-end
-arch blocked
-x 13
-y 18
-end
-arch blocked
-x 13
-y 19
-end
-arch blocked
-x 13
-y 20
-end
-arch blocked
-x 13
-y 21
-end
-arch blocked
-x 13
-y 22
-end
-arch blocked
-x 13
-y 23
-end
 arch floor_earth1b
 x 14
 end
@@ -1633,38 +1148,6 @@ arch rock_big3
 x 14
 y 15
 end
-arch blocked
-x 14
-y 16
-end
-arch blocked
-x 14
-y 17
-end
-arch blocked
-x 14
-y 18
-end
-arch blocked
-x 14
-y 19
-end
-arch blocked
-x 14
-y 20
-end
-arch blocked
-x 14
-y 21
-end
-arch blocked
-x 14
-y 22
-end
-arch blocked
-x 14
-y 23
-end
 arch floor_earth1e
 x 15
 end
@@ -1743,42 +1226,6 @@ arch rock_big2
 x 15
 y 14
 end
-arch blocked
-x 15
-y 15
-end
-arch blocked
-x 15
-y 16
-end
-arch blocked
-x 15
-y 17
-end
-arch blocked
-x 15
-y 18
-end
-arch blocked
-x 15
-y 19
-end
-arch blocked
-x 15
-y 20
-end
-arch blocked
-x 15
-y 21
-end
-arch blocked
-x 15
-y 22
-end
-arch blocked
-x 15
-y 23
-end
 arch floor_earth1d
 x 16
 end
@@ -1846,38 +1293,6 @@ arch rock_big1
 x 16
 y 14
 end
-arch blocked
-x 16
-y 15
-end
-arch blocked
-x 16
-y 16
-end
-arch blocked
-x 16
-y 17
-end
-arch blocked
-x 16
-y 18
-end
-arch blocked
-x 16
-y 19
-end
-arch blocked
-x 16
-y 20
-end
-arch blocked
-x 16
-y 21
-end
-arch blocked
-x 16
-y 22
-end
 arch grassd_7
 x 16
 y 23
@@ -1944,42 +1359,6 @@ end
 arch rock_big2
 x 17
 y 13
-end
-arch blocked
-x 17
-y 14
-end
-arch blocked
-x 17
-y 15
-end
-arch blocked
-x 17
-y 16
-end
-arch blocked
-x 17
-y 17
-end
-arch blocked
-x 17
-y 18
-end
-arch blocked
-x 17
-y 19
-end
-arch blocked
-x 17
-y 20
-end
-arch blocked
-x 17
-y 21
-end
-arch blocked
-x 17
-y 22
 end
 arch grassd_7
 x 17
@@ -2062,38 +1441,6 @@ end
 arch rock_big3
 x 18
 y 13
-end
-arch blocked
-x 18
-y 14
-end
-arch blocked
-x 18
-y 15
-end
-arch blocked
-x 18
-y 16
-end
-arch blocked
-x 18
-y 17
-end
-arch blocked
-x 18
-y 18
-end
-arch blocked
-x 18
-y 19
-end
-arch blocked
-x 18
-y 20
-end
-arch blocked
-x 18
-y 21
 end
 arch grassd_1
 x 18
@@ -2182,38 +1529,6 @@ arch rock_big3
 x 19
 y 12
 end
-arch blocked
-x 19
-y 13
-end
-arch blocked
-x 19
-y 14
-end
-arch blocked
-x 19
-y 15
-end
-arch blocked
-x 19
-y 16
-end
-arch blocked
-x 19
-y 17
-end
-arch blocked
-x 19
-y 18
-end
-arch blocked
-x 19
-y 19
-end
-arch blocked
-x 19
-y 20
-end
 arch grassd_7
 x 19
 y 21
@@ -2301,46 +1616,6 @@ arch rock_big1
 x 20
 y 10
 end
-arch blocked
-x 20
-y 11
-end
-arch blocked
-x 20
-y 12
-end
-arch blocked
-x 20
-y 13
-end
-arch blocked
-x 20
-y 14
-end
-arch blocked
-x 20
-y 15
-end
-arch blocked
-x 20
-y 16
-end
-arch blocked
-x 20
-y 17
-end
-arch blocked
-x 20
-y 18
-end
-arch blocked
-x 20
-y 19
-end
-arch blocked
-x 20
-y 20
-end
 arch grassd_4
 x 20
 y 21
@@ -2412,58 +1687,6 @@ arch rock_big1
 x 21
 y 7
 end
-arch blocked
-x 21
-y 8
-end
-arch blocked
-x 21
-y 9
-end
-arch blocked
-x 21
-y 10
-end
-arch blocked
-x 21
-y 11
-end
-arch blocked
-x 21
-y 12
-end
-arch blocked
-x 21
-y 13
-end
-arch blocked
-x 21
-y 14
-end
-arch blocked
-x 21
-y 15
-end
-arch blocked
-x 21
-y 16
-end
-arch blocked
-x 21
-y 17
-end
-arch blocked
-x 21
-y 18
-end
-arch blocked
-x 21
-y 19
-end
-arch blocked
-x 21
-y 20
-end
 arch grassd_5
 x 21
 y 21
@@ -2510,70 +1733,6 @@ arch rock_big1
 x 22
 y 2
 end
-arch blocked
-x 22
-y 3
-end
-arch blocked
-x 22
-y 4
-end
-arch blocked
-x 22
-y 5
-end
-arch blocked
-x 22
-y 6
-end
-arch blocked
-x 22
-y 7
-end
-arch blocked
-x 22
-y 8
-end
-arch blocked
-x 22
-y 9
-end
-arch blocked
-x 22
-y 10
-end
-arch blocked
-x 22
-y 11
-end
-arch blocked
-x 22
-y 12
-end
-arch blocked
-x 22
-y 13
-end
-arch blocked
-x 22
-y 14
-end
-arch blocked
-x 22
-y 15
-end
-arch blocked
-x 22
-y 16
-end
-arch blocked
-x 22
-y 17
-end
-arch blocked
-x 22
-y 18
-end
 arch grassd_1
 x 22
 y 19
@@ -2611,70 +1770,6 @@ x 23
 end
 arch rock_big2
 x 23
-end
-arch blocked
-x 23
-y 1
-end
-arch blocked
-x 23
-y 2
-end
-arch blocked
-x 23
-y 3
-end
-arch blocked
-x 23
-y 4
-end
-arch blocked
-x 23
-y 5
-end
-arch blocked
-x 23
-y 6
-end
-arch blocked
-x 23
-y 7
-end
-arch blocked
-x 23
-y 8
-end
-arch blocked
-x 23
-y 9
-end
-arch blocked
-x 23
-y 10
-end
-arch blocked
-x 23
-y 11
-end
-arch blocked
-x 23
-y 12
-end
-arch blocked
-x 23
-y 13
-end
-arch blocked
-x 23
-y 14
-end
-arch blocked
-x 23
-y 15
-end
-arch blocked
-x 23
-y 16
 end
 arch grassd_5
 x 23

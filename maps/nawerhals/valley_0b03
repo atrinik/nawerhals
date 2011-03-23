@@ -84,24 +84,6 @@ end
 arch rock_big3
 y 17
 end
-arch blocked
-y 18
-end
-arch blocked
-y 19
-end
-arch blocked
-y 20
-end
-arch blocked
-y 21
-end
-arch blocked
-y 22
-end
-arch blocked
-y 23
-end
 arch floor_earth1e
 x 1
 end
@@ -204,22 +186,6 @@ end
 arch rock_big1
 x 1
 y 19
-end
-arch blocked
-x 1
-y 20
-end
-arch blocked
-x 1
-y 21
-end
-arch blocked
-x 1
-y 22
-end
-arch blocked
-x 1
-y 23
 end
 arch floor_earth1e
 x 2

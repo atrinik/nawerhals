@@ -18,8 +18,6 @@ bg_music frozen.ogg
 region glacial_hollow
 end
 arch blocked
-end
-arch blocked
 y 1
 end
 arch rock_wall4
@@ -65,9 +63,6 @@ end
 arch light1
 y 10
 end
-arch blocked
-y 11
-end
 arch snow1
 y 12
 end
@@ -92,9 +87,6 @@ y 14
 end
 arch blocked
 y 15
-end
-arch blocked
-y 16
 end
 arch blocked
 y 17
@@ -138,9 +130,6 @@ y 23
 end
 arch rock_wall1
 y 23
-end
-arch blocked
-x 1
 end
 arch snow2
 x 1
@@ -1143,10 +1132,6 @@ arch blocked
 x 6
 y 9
 end
-arch blocked
-x 6
-y 10
-end
 arch snow1
 x 6
 y 11
@@ -1308,14 +1293,6 @@ end
 arch snow1
 x 7
 y 8
-end
-arch blocked
-x 7
-y 9
-end
-arch blocked
-x 7
-y 10
 end
 arch snow1
 x 7
@@ -1479,10 +1456,6 @@ arch snow1
 x 8
 y 8
 end
-arch blocked
-x 8
-y 9
-end
 arch snow3
 x 8
 y 10
@@ -1584,10 +1557,6 @@ end
 arch snow1
 x 8
 y 22
-end
-arch blocked
-x 8
-y 23
 end
 arch snow1
 x 9
@@ -1805,10 +1774,6 @@ arch snow4
 x 9
 y 22
 end
-arch blocked
-x 9
-y 23
-end
 arch snow3
 x 10
 end
@@ -1914,10 +1879,6 @@ y 11
 end
 arch blocked
 x 10
-y 12
-end
-arch blocked
-x 10
 y 13
 end
 arch pillar_blue7
@@ -1928,10 +1889,6 @@ end
 arch light1
 x 10
 y 13
-end
-arch blocked
-x 10
-y 14
 end
 arch blocked
 x 10
@@ -2614,9 +2571,6 @@ arch rock_wall1
 x 13
 y 23
 end
-arch blocked
-x 14
-end
 arch snow3
 x 14
 y 1
@@ -3151,9 +3105,6 @@ arch blocked
 x 16
 y 23
 end
-arch blocked
-x 17
-end
 arch snow4
 x 17
 y 1
@@ -3242,10 +3193,6 @@ end
 arch rock_wall1
 x 17
 y 10
-end
-arch blocked
-x 17
-y 11
 end
 arch blocked
 x 17
@@ -3341,10 +3288,6 @@ x 17
 y 22
 end
 arch blocked
-x 17
-y 23
-end
-arch blocked
 x 18
 end
 arch rock_wall4
@@ -3417,10 +3360,6 @@ y 8
 end
 arch blocked
 x 18
-y 9
-end
-arch blocked
-x 18
 y 10
 end
 arch pillar_blue7
@@ -3431,10 +3370,6 @@ end
 arch light1
 x 18
 y 10
-end
-arch blocked
-x 18
-y 11
 end
 arch blocked
 x 18
@@ -3511,10 +3446,6 @@ end
 arch blocked
 x 18
 y 22
-end
-arch blocked
-x 18
-y 23
 end
 arch snow4
 x 19
@@ -3603,10 +3534,6 @@ end
 arch light1
 x 19
 y 10
-end
-arch blocked
-x 19
-y 11
 end
 arch blocked
 x 19
@@ -3710,14 +3637,6 @@ arch light1
 x 19
 y 21
 end
-arch blocked
-x 19
-y 22
-end
-arch blocked
-x 19
-y 23
-end
 arch snow3
 x 20
 end
@@ -3800,10 +3719,6 @@ end
 arch light1
 x 20
 y 7
-end
-arch blocked
-x 20
-y 8
 end
 arch blocked
 x 20
@@ -3921,10 +3836,6 @@ y 17
 end
 arch blocked
 x 20
-y 18
-end
-arch blocked
-x 20
 y 19
 end
 arch light1
@@ -3938,18 +3849,6 @@ end
 arch light1
 x 20
 y 20
-end
-arch blocked
-x 20
-y 21
-end
-arch blocked
-x 20
-y 22
-end
-arch blocked
-x 20
-y 23
 end
 arch snow2
 x 21
@@ -4081,34 +3980,6 @@ end
 arch blocked
 x 21
 y 16
-end
-arch blocked
-x 21
-y 17
-end
-arch blocked
-x 21
-y 18
-end
-arch blocked
-x 21
-y 19
-end
-arch blocked
-x 21
-y 20
-end
-arch blocked
-x 21
-y 21
-end
-arch blocked
-x 21
-y 22
-end
-arch blocked
-x 21
-y 23
 end
 arch blocked
 x 22
@@ -4217,45 +4088,6 @@ arch blocked
 x 22
 y 14
 end
-arch blocked
-x 22
-y 15
-end
-arch blocked
-x 22
-y 16
-end
-arch blocked
-x 22
-y 17
-end
-arch blocked
-x 22
-y 18
-end
-arch blocked
-x 22
-y 19
-end
-arch blocked
-x 22
-y 20
-end
-arch blocked
-x 22
-y 21
-end
-arch blocked
-x 22
-y 22
-end
-arch blocked
-x 22
-y 23
-end
-arch blocked
-x 23
-end
 arch snow4
 x 23
 y 1
@@ -4353,44 +4185,4 @@ end
 arch light1
 x 23
 y 13
-end
-arch blocked
-x 23
-y 14
-end
-arch blocked
-x 23
-y 15
-end
-arch blocked
-x 23
-y 16
-end
-arch blocked
-x 23
-y 17
-end
-arch blocked
-x 23
-y 18
-end
-arch blocked
-x 23
-y 19
-end
-arch blocked
-x 23
-y 20
-end
-arch blocked
-x 23
-y 21
-end
-arch blocked
-x 23
-y 22
-end
-arch blocked
-x 23
-y 23
 end
